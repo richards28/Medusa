@@ -51,3 +51,4 @@ chown -R ubuntu:ubuntu /home/ubuntu/my-medusa-store
 cd /home/ubuntu/my-medusa-store
 nohup medusa develop > /home/ubuntu/medusa.log 2>&1 &
 apt update && apt install --reinstall sudo
+apt install postgresql-client-common
